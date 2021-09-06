@@ -4,7 +4,7 @@ import lasio
 st.title("Aplicación para registro de pozos")
 st.sidebar.title("Menu")
 
-archivo_las=lasio.read("Archivos_LAS\LGAE-040.las")
+archivo_las=lasio.read("LGAE-040.las")
 df=archivo_las.df()
 
 
